@@ -17,4 +17,8 @@
   ln -s ~/.files/dotbash_aliases ~/.bash_aliases
   sudo apt-get install xsel
   ```
+4. Source `promp.sh` in `~/.bash_rc`
 
+  ```
+  echo ". ~/.files/prompt.sh" >> ~/.bashrc
+  ```
