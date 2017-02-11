@@ -19,3 +19,5 @@ source ${DIR}/prompt.sh
 source ${DIR}/comment.sh
 source ${DIR}/lin.sh
 
+export PATH=${PATH}:${DIR}/bin
+

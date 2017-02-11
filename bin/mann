@@ -1,0 +1,3 @@
+baseUrl="http://explainshell.com/explain?cmd=$(echo "$@" | urlencode)"
+
+google-chrome $baseUrl
