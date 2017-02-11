@@ -16,3 +16,16 @@
   ```
   sudo apt-get install xsel
   ```
+
+4. Install [Vundle.vim](https://github.com/VundleVim/Vundle.vim)
+
+  ```
+  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+  ```
+
+  Launch `vim` and run `:PluginInstall`
+
+5. Link `.vimrc`
+  ```
+  ln -s ~/.files/dotvimrc ~/.vimrc
+  ```
