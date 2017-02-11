@@ -17,4 +17,5 @@ DIR="$(get_script_dir)"
 source ${DIR}/aliases.sh
 source ${DIR}/prompt.sh
 source ${DIR}/comment.sh
+source ${DIR}/lin.sh
 
