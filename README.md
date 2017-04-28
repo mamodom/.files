@@ -34,3 +34,15 @@
   ln -s ~/.files/dotvimrc ~/.vimrc
   ```
 7. Launch `vim` and run `:PluginInstall`
+
+8. Install [copyq](https://github.com/hluk/CopyQ)
+```
+sudo add-apt-repository ppa:hluk/copyq
+sudo apt update
+sudo apt install copyq
+```
+
+9. Add symbolic link to `copyq.conf`
+```
+ln -s ~/.files/copyq.conf ~/.config/copyq/copyq.conf
+```
