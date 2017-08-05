@@ -17,7 +17,7 @@ prompt_function() {
     git_color="${RED}"
   fi
 
-  PS1="${BLUE}\u${RESET}:${GRAY}$AWS_ENVIRONMENT${git_color}$(__git_ps1)${YELLOW}\w${RESET}\$ "
+  PS1="${BLUE}\u${LIGHT_GRAY}@${GRAY}\h${RESET}:${GRAY}$AWS_ENVIRONMENT${git_color}$(__git_ps1)${YELLOW}\w${RESET}\$ "
 
   # Adds $AWS_ENVIRONMENT and $TERMINAL_COMMENT to the terminal title
   if [ -z "$AWS_ENVIRONMENT" ]; then
