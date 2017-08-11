@@ -18,6 +18,6 @@ source ${DIR}/aliases.sh
 source ${DIR}/prompt.sh
 source ${DIR}/comment.sh
 source ${DIR}/lin.sh
-
+source ${DIR}/aws_completer.sh
 export PATH=${PATH}:${DIR}/bin
 
