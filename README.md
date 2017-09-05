@@ -42,7 +42,7 @@ xclip -sel clip < ~/.ssh/id_rsa.pub
   ```
   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
   ```
-  
+
 8. Add symbolic link to `.vimrc`
   ```
   ln -s ~/.files/dotvimrc ~/.vimrc
@@ -63,7 +63,7 @@ ln -s ~/.files/copyq.conf ~/.config/copyq/copyq.conf
 
 12. Install nvm ([see this](https://github.com/creationix/nvm#install-script))
 
-13. Enable npm completion 
+13. Enable npm completion
 ```
-npm completion > $(sudo find / -name 'bash_completion.d' 2>/dev/null)/npm 
+npm completion | sudo tee $(sudo find / -name 'bash_completion.d' 2>/dev/null)/npm 1> /dev/null
 ```
