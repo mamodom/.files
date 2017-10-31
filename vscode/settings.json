@@ -1,5 +1,7 @@
 {
     "python.pythonPath": "/home/mamodom/.pyenv/shims/python",
     "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "typescript.npm": "/home/mamodom/.nvm/versions/node/v8.4.0/bin/npm"
 }

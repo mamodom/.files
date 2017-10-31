@@ -12,6 +12,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'itchyny/lightline.vim'
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 
