@@ -58,12 +58,24 @@ sudo apt install copyq
 
 11. Add symbolic link to `copyq.conf`
 ```
+mkdir -p ~/.config/copyq/
 ln -s ~/.files/copyq.conf ~/.config/copyq/copyq.conf
 ```
 
 12. Install nvm ([see this](https://github.com/creationix/nvm#install-script))
+```
+nvm install $(nvm version-remote --lts) --latest-npm
+```
 
 13. Enable npm completion
 ```
 npm completion | sudo tee $(sudo find / -name 'bash_completion.d' 2>/dev/null)/npm 1> /dev/null
+```
+
+14. Install Pyenv ([see this](https://github.com/pyenv/pyenv-installer#github-way-recommended))
+
+15. Add config files for vsCode
+```
+mkdir -p ~/.config/Code/User/
+ln -s ~/.files/vscode/* ~/.config/Code/User/
 ```

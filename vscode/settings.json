@@ -1,7 +1,22 @@
 {
-    "python.pythonPath": "/home/mamodom/.pyenv/shims/python",
+    "python.pythonPath": "/home/maximo/.pyenv/shims/python",
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
     "terminal.integrated.shell.linux": "/bin/bash",
-    "typescript.npm": "/home/mamodom/.nvm/versions/node/v8.4.0/bin/npm"
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.panel.location": "bottom",
+    "terminal.integrated.fontFamily": "'Lucida Console', Monaco, monospace",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "python.linting.pylintArgs": [
+        "--disable=C0111"
+    ]
 }

@@ -21,7 +21,15 @@
 [color]
   ui = true
 [user]
-  name = Maximo Dominguez
+	name = Maximo Dominguez
 	email = mamodom@gmail.com
 [core]
   editor = vim
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[includeIf "gitdir:/home/maximo/dev/ic/"]
+    path = ~/.ic.gitconfig
