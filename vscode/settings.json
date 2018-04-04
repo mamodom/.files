@@ -13,10 +13,14 @@
         "suppressGitVersionWarning": false,
         "suppressLineUncommittedWarning": false,
         "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
         "suppressUpdateNotice": false,
         "suppressWelcomeNotice": true
     },
     "python.linting.pylintArgs": [
         "--disable=C0111"
-    ]
+    ],
+    "gitlens.keymap": "chorded",
+    "diffEditor.ignoreTrimWhitespace": true
 }
