@@ -17,13 +17,13 @@ prompt_function() {
     git_color="${RED}"
   fi
 
-  PS1="${BLUE}\u${LIGHT_GRAY}@${GRAY}\h${RESET}:${GRAY}$AWS_ENVIRONMENT${git_color}$(__git_ps1)${YELLOW}\w${RESET}\$ "
+  PS1="${BLUE}\u${LIGHT_GRAY}@${GRAY}\h${RESET} : ${LIGHT_GREEN}$AWS_PROFILE${git_color}$(__git_ps1)${YELLOW}\w${RESET}\$ "
 
-  # Adds $AWS_ENVIRONMENT and $TERMINAL_COMMENT to the terminal title
-  if [ -z "$AWS_ENVIRONMENT" ]; then
+  # Adds $AWS_PROFILE and $TERMINAL_COMMENT to the terminal title
+  if [ -z "$AWS_PROFILE" ]; then
     awsenv=""
   else
-    awsenv=" : $AWS_ENVIRONMENT"
+    awsenv=" : $AWS_PROFILE"
   fi
 
   if [ -z "$TERMINAL_COMMENT" ]; then

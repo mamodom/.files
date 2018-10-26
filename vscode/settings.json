@@ -1,10 +1,8 @@
 {
-    "python.pythonPath": "/home/maximo/.pyenv/shims/python",
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
     "terminal.integrated.shell.linux": "/bin/bash",
     "workbench.colorTheme": "Visual Studio Light",
-    "workbench.panel.location": "bottom",
     "terminal.integrated.fontFamily": "'Lucida Console', Monaco, monospace",
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
@@ -18,9 +16,29 @@
         "suppressUpdateNotice": false,
         "suppressWelcomeNotice": true
     },
-    "python.linting.pylintArgs": [
-        "--disable=C0111"
-    ],
-    "gitlens.keymap": "chorded",
-    "diffEditor.ignoreTrimWhitespace": true
+    "diffEditor.ignoreTrimWhitespace": true,
+    "gitlens.keymap": "alternate",
+    "prettier.trailingComma": "es5",
+    "prettier.singleQuote": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "sync.gist": "6877940b8fae4b8e36288d39ba24f902",
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastUpload": "2018-05-17T02:58:23.925Z",
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    "gitlens.historyExplorer.enabled": false,
+    "terminal.integrated.rendererType": "dom",
+    "flow.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "breadcrumbs.enabled": true,
+    "gitlens.mode.active": "zen",
+    "editor.tabCompletion": "on"
 }

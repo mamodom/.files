@@ -19,5 +19,6 @@ source ${DIR}/prompt.sh
 source ${DIR}/comment.sh
 source ${DIR}/lin.sh
 source ${DIR}/aws_completer.sh
+source ${DIR}/aws-env.sh
 export PATH=${PATH}:${DIR}/bin
 

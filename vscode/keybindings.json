@@ -43,5 +43,17 @@
     {
         "key": "ctrl+shift+alt+e",
         "command": "eslint.executeAutofix"
+    },
+    {
+        "key": "ctrl+shift+alt+t",
+        "command": "workbench.view.extension.test"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "workbench.action.zoomReset"
+    },
+    {
+        "key": "ctrl+numpad0",
+        "command": "-workbench.action.zoomReset"
     }
 ]
