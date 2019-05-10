@@ -30,14 +30,3 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-
-[includeIf "gitdir:/home/maximo/dev/iBAN/"]
-    path = ~/.io.gitconfig
-
-[includeIf "gitdir:/home/mamodom/dev/myibanwallet/"]
-  path = ~/.iw.gitconfig
-
-[includeIf "gitdir:/home/mamodom/dev/fin/dino/"]
-  path = ~/.iw.gitconfig
-
-
