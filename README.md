@@ -91,6 +91,7 @@ curl https://pyenv.run | bash
 ```
 git clone https://github.com/momo-lab/xxenv-latest.git "$(pyenv root)"/plugins/xxenv-latest
 pyenv latest install
+pyenv latest install 2
 pyenv latest global
 ```
 
@@ -106,4 +107,10 @@ Hit <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>D</kbd> and follow instructions
 
 ```
 pip install awscli
+```
+
+18. Disable IBus emoji (see [here](https://askubuntu.com/a/1039039/476987))
+
+```
+sudo ibus-setup
 ```
