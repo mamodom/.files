@@ -101,3 +101,9 @@ ext install Shan.code-settings-sync
 ```
 
 Hit <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>D</kbd> and follow instructions
+
+17. Install aws cli
+
+```
+pip install awscli
+```
