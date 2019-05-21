@@ -94,9 +94,10 @@ pyenv latest install
 pyenv latest global
 ```
 
-16. Add config files for vsCode
+16. Sync vscode settings
 
 ```
-mkdir -p ~/.config/Code/User/
-ln -s ~/.files/vscode/* ~/.config/Code/User/
+ext install Shan.code-settings-sync
 ```
+
+Hit <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>D</kbd> and follow instructions
