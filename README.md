@@ -8,35 +8,34 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 ```
 
-2. Add ssh key to github
+2. Install `xsel` to support `copy` and `paste` aliases
 
 ```
-sudo apt-get install xclip
-xclip -sel clip < ~/.ssh/id_rsa.pub
+sudo apt-get install xsel
 ```
 
-3. Clone reop to `~/`
+3. Add ssh key to github
+
+```
+xsel -ib < ~/.ssh/id_rsa.pub
+```
+
+4. Clone reop to `~/`
 
 ```
 git clone git@github.com:mamodom/.files.git
 ```
 
-4. Add symbolic link to `.gitconfig`
+5. Add symbolic link to `.gitconfig`
 
 ```
 ln -s ~/.files/dotgitconfig ~/.gitconfig
 ```
 
-5. Add symbolic link to `.bash_aliases`
+6. Add symbolic link to `.bash_aliases`
 
 ```
  ln -s ~/.files/dotbash_aliases ~/.bash_aliases
-```
-
-6. Install `xsel` to support `copy` and `paste` aliases
-
-```
-sudo apt-get install xsel
 ```
 
 7. Install [Vundle.vim](https://github.com/VundleVim/Vundle.vim)
