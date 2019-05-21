@@ -62,7 +62,7 @@ mkdir -p ~/.config/copyq/
 ln -s ~/.files/copyq.conf ~/.config/copyq/copyq.conf
 ```
 
-12. Install nvm ([see this](https://github.com/creationix/nvm#install-script))
+12. Install nvm ([see this](https://github.com/nvm-sh/nvm#install--update-script))
 ```
 nvm install $(nvm version-remote --lts) --latest-npm
 ```
