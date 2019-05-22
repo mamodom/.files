@@ -113,3 +113,9 @@ pip install awscli
 ```
 sudo ibus-setup
 ```
+
+19. Make linux use local time in rtc (see [here](https://askubuntu.com/a/720466/476987)) (for dual boot)
+
+```
+timedatectl set-local-rtc 1
+```
