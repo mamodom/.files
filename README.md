@@ -5,7 +5,7 @@
 ```
 ssh-keygen -t ed25519 -C "mamodom@gmail.com"
 eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_rsa
+ssh-add ~/.ssh/id_ed25519
 ```
 
 2. Install `xsel` to support `copy` and `paste` aliases
